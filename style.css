@@ -4,11 +4,39 @@
   box-sizing: border-box;
 }
 
+h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: #121212;
+  margin-bottom: 20px;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: #707070;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
+.btn-style {
+  background-color: #ff5959;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 550;
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+}
+
 body {
   font-family: "Inter", sans-serif;
   font-family: "Poppins", sans-serif;
 }
 
+/* Hero Section Styling */
 .hero-section {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(img/hero-bg.png);
@@ -20,11 +48,12 @@ body {
   justify-content: center;
   align-items: center;
   color: #fff;
+  text-align: center;
+  margin-bottom: 80px;
 }
 
 .hero-contents {
   width: 50%;
-  text-align: center;
 }
 
 .hero-contents h1 {
@@ -34,19 +63,44 @@ body {
   margin-bottom: 20px;
 }
 
-.hero-contents p {
-  font-family: "Poppins", sans-serif;
-  font-size: 20px;
-  line-height: 28px;
-  margin-bottom: 30px;
+/* Donate Section Styling */
+.donate-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 80px;
 }
 
-button {
-  background-color: #ff5959;
-  color: #fff;
-  font-family: "Inter", sans-serif;
-  font-size: 20px;
-  font-weight: 550;
-  padding: 15px;
-  border-radius: 5px;
+.donate-contents {
+  width: 50%;
+}
+
+.price-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.price-cards p {
+  margin: 30px;
+  padding: 50px 25px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.selected {
+  border: 3px solid #ff5959;
+  border-radius: 7px;
+  color: #ff5959;
+  background-color: #ffeeee;
+}
+
+.input {
+  color: #b3b3b3;
+}
+
+hr {
+  color: #dadada;
+  margin-bottom: 30px;
 }
