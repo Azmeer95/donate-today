@@ -36,7 +36,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-/* Hero Section Styling */
+/* Hero Section */
 .hero-section {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(img/hero-bg.png);
@@ -63,7 +63,7 @@ body {
   margin-bottom: 20px;
 }
 
-/* Donate Section Styling */
+/* Donate Section */
 .donate-section {
   display: flex;
   justify-content: center;
@@ -103,4 +103,30 @@ body {
 hr {
   color: #dadada;
   margin-bottom: 30px;
+}
+
+/* Donate Plan Section */
+
+.donate-plan-header {
+  width: 50%;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.plan-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.food,
+.shelter,
+.education {
+  margin: 20px;
+  padding: 50px 30px;
+  width: 30%;
+  background-color: #4f9da6;
 }
