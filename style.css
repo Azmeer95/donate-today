@@ -192,7 +192,7 @@ hr {
 .subscribe {
   background-color: rgb(255, 244, 214, 80%);
   margin-top: 50px;
-  padding: 50px;
+  padding: 70px;
   display: flex;
   justify-content: center;
 }
@@ -219,4 +219,5 @@ footer h3 {
 footer p {
   font-size: 14px;
   color: #d9dbe1;
+  font-weight: 250;
 }
