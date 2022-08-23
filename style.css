@@ -12,6 +12,13 @@ h2 {
   margin-bottom: 20px;
 }
 
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 20px 0;
+}
+
 p {
   font-family: "Poppins", sans-serif;
   font-size: 20px;
@@ -128,6 +135,22 @@ hr {
 .education {
   margin: 20px;
   padding: 50px 30px;
-  width: 30%;
-  background-color: #4f9da6;
+  width: 360px;
+}
+
+.plan-cards p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+.food {
+  background-color: rgb(79, 157, 166, 10%);
+}
+
+.shelter {
+  background-color: rgb(255, 89, 89, 10%);
+}
+
+.education {
+  background-color: rgb(255, 244, 214, 80%);
 }
